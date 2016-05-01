@@ -12,6 +12,7 @@ html{
 }
 
 body {
+  font-family: "Verdana";
   padding-top: 60x;
 }
 
@@ -27,12 +28,20 @@ textarea{
   text-align: center;
   margin-top: 60px;
   h1{
+    margin-bottom: 15px;
+  }
+  h2{
     margin-bottom: 60px;
   }
 }
 
 .custom-block{
   margin-top: 60px;
+}
+
+
+.signup_button{
+  text-align: center;
 }
 
 /* typography */
@@ -101,3 +110,4 @@ footer {
     }
   }
 }
+

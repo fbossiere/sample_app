@@ -7,9 +7,26 @@
     This is the home page for the
     <%= link_to "Ruby on Rails Tutorial",   "http://www.railstutorial.org/" %>
   </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
-          "http://rubyonrails.org/" %>
+<div class="container">
+  <div class="col-md-4">
+    <div>
+    <%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
+              "http://rubyonrails.org/" %>
+    </div>
+  </div>
+    
+  <div class="col-md-4">
+    <div class="signup_button">
+      <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div>
+    <%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
+              "http://rubyonrails.org/" %>
+    </div>
+  </div>
+</div>
