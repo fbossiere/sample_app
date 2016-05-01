@@ -9,24 +9,16 @@
   </h2>
 </div>
 
-<div class="container">
-  <div class="col-md-4">
-    <div>
-    <%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
-              "http://rubyonrails.org/" %>
-    </div>
+<div class="row">
+    <div class="center col-lg-4">
+      <div>
+        <%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
+                  "http://rubyonrails.org/" %>
+        <%= link_to image_tag("boostrap.png", alt: "Bootstrap logo", width: 100),
+              "http://getbootstrap.com/" %>
+      </div>
   </div>
-    
-  <div class="col-md-4">
-    <div class="signup_button">
-      <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-    </div>
-  </div>
-  
-  <div class="col-md-4">
-    <div>
-    <%= link_to image_tag("rails.png", alt: "Rails logo", width: 100),
-              "http://rubyonrails.org/" %>
-    </div>
+  <div class="center col-lg-4">
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
 </div>
